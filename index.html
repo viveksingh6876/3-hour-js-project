@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="margin: 0">
+  <form onsubmit="handleFormSubmit(event)">
+    <label for="orderCharge">Order Charge</label>
+    <input type="number" name="orderCharge" id="orderCharge" />
+    <label for="orderItem">Order Item</label>
+    <input type="orderItem" name="orderItem" id="orderItem" /> 
+    <select id="tableno" name="tableno">
+      <option value="Table no 1">Table no 1</option>
+      <option value="Table no 2">Table no 2</option>
+      <option value="Table no 3">Table no 3</option>
+    </select>
+    <button type="submit">ADD </button>
+  </form>
+    
+    <ul id="tableno1">Table No 1</ul>
+    <ul id="tableno2">Table No 2</ul>
+    <ul id="tableno3">Table No 3</ul>
+  
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="index.js"></script>
+
+</html>
